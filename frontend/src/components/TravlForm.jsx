@@ -26,6 +26,7 @@ const countrys = [
     "ماليزياء ",
     "اندونيسيا ",
     "موريشيوس ",
+    "تركيا",
     "اوروبا جماعية ",
     "اوروبا حرة ",
     "حجز طيران ",
@@ -109,7 +110,9 @@ function TravlForm() {
                 <TextField
                     fullWidth
                     name="phone"
+                    type="text"
                     onChange={(e) => setPhone(e.target.value)}
+                    value={phone}
                     required
                     sx={{
                         mb: 1,

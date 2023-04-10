@@ -111,17 +111,6 @@ function Footer() {
                 >
                     <Twitter />
                 </Link>
-                <Link
-                    to="tel:+966510608385"
-                    style={{
-                        color: "inherit",
-                        textDecoration: "none",
-                        fontSize: 15,
-                        fontWeight: "bold",
-                    }}
-                >
-                    +966510608385
-                </Link>
             </Stack>
             <Typography>جميع الحقوق محفوظة © رحلتك للسياحة {year}</Typography>
         </Box>

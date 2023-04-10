@@ -3,7 +3,7 @@ import React from "react";
 import Carousel from "react-material-ui-carousel";
 
 const images = [
-    "images/Artboard-3.jpg",
+    "images/Artboard-4.jpg",
     "images/Artboard-1.jpg",
     "images/Artboard-2.jpg",
 ];

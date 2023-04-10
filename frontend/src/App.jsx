@@ -18,6 +18,7 @@ import { AuthLayout } from "./conext/AurhContexe";
 import LssuingTouristVisas from "./pages/OtherServise/LssuingTouristVisas";
 import InternationalLicense from "./pages/OtherServise/InternationalLicense";
 import BookingFlight from "./pages/OtherServise/BookingFlight";
+import WatsAppIcon from "./components/WatsAppIcon";
 
 function App() {
     return (
@@ -25,7 +26,7 @@ function App() {
             <CssBaseline />
 
             <NavBar />
-
+            <WatsAppIcon />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
